@@ -27,7 +27,7 @@ This project reads audio data from an I2S microphone using an **ESP32** and perf
 - `Wire`
 - `driver/i2s.h` (ESP32 I2S peripheral)
 
-
+---
 
 ## 📊 How it works
 1. Audio data is collected via **I2S** at **44.1kHz, 16-bit**.
