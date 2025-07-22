@@ -27,21 +27,7 @@ This project reads audio data from an I2S microphone using an **ESP32** and perf
 - `Wire`
 - `driver/i2s.h` (ESP32 I2S peripheral)
 
----
 
-## 🔧 Setup
-1. Install libraries through Arduino Library Manager:
-   - **Adafruit GFX**
-   - **Adafruit SSD1306**
-   - **arduinoFFT**
-
-2. Connect your hardware.
-
-3. Flash the provided code to your ESP32.
-
-4. Open Serial Monitor at **115200 baud** to view FFT data.
-
----
 
 ## 📊 How it works
 1. Audio data is collected via **I2S** at **44.1kHz, 16-bit**.
@@ -50,6 +36,4 @@ This project reads audio data from an I2S microphone using an **ESP32** and perf
 4. **FFT** is computed.
 5. The magnitude spectrum is displayed as **128 vertical bars** on the OLED.
 
----
 
-## 📷 Example Output
